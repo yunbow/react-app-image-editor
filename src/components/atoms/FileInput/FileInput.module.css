@@ -1,0 +1,23 @@
+.uploadContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.hiddenInput {
+  display: none;
+}
+
+.uploadBtn {
+  display: inline-block;
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.uploadBtn:hover {
+  background-color: #2980b9;
+}

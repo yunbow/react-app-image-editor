@@ -1,0 +1,21 @@
+.controlItem {
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+.numberInput {
+  width: 80px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 0 8px;
+}
+
+.unit {
+  font-size: 14px;
+}
