@@ -1,0 +1,30 @@
+.controlItem {
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  font-size: 14px;
+  margin-right: 8px;
+  color: var(--color-foreground);
+}
+
+.numberInput {
+  width: 80px;
+  padding: 5px;
+  border: 1px solid var(--color-input);
+  border-radius: var(--radius);
+  margin: 0 8px;
+  background-color: var(--color-card);
+  color: var(--color-foreground);
+}
+
+.numberInput:focus {
+  outline: 2px solid var(--color-ring);
+  outline-offset: 2px;
+}
+
+.unit {
+  font-size: 14px;
+  color: var(--color-muted-foreground);
+}

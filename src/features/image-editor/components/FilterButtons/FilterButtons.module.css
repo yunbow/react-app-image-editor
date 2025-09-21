@@ -1,0 +1,10 @@
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.active {
+  background-color: var(--color-primary) !important;
+  color: var(--color-primary-foreground) !important;
+}

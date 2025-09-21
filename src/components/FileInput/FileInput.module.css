@@ -1,0 +1,23 @@
+.uploadContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.hiddenInput {
+  display: none;
+}
+
+.uploadBtn {
+  display: inline-block;
+  background-color: var(--color-primary);
+  color: var(--color-primary-foreground);
+  padding: 10px 20px;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.uploadBtn:hover {
+  opacity: 0.9;
+}

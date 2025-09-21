@@ -1,0 +1,41 @@
+.button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.2s;
+  background-color: var(--color-secondary);
+  color: var(--color-secondary-foreground);
+}
+
+.button:hover {
+  background-color: var(--color-accent);
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.button:disabled:hover {
+  background-color: var(--color-secondary);
+}
+
+.primary {
+  background-color: var(--color-primary);
+  color: var(--color-primary-foreground);
+}
+
+.primary:hover {
+  opacity: 0.9;
+}
+
+.secondary {
+  background-color: var(--color-secondary);
+  color: var(--color-secondary-foreground);
+}
+
+.secondary:hover {
+  background-color: var(--color-accent);
+}

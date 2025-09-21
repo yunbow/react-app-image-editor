@@ -1,0 +1,9 @@
+.resizeControls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.applyButton {
+  margin-top: 5px;
+}
